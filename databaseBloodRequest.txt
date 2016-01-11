@@ -1,0 +1,16 @@
+DROP TABLE IF EXISTS `locateeasy`.`blodrequest`;
+CREATE TABLE  `locateeasy`.`blodrequest` (
+  `name` varchar(100) DEFAULT NULL,
+  `bloodgroup` varchar(10) DEFAULT NULL,
+  `age` varchar(10) DEFAULT NULL,
+  `neededtill` varchar(20) DEFAULT NULL,
+  `unitneed` varchar(50) DEFAULT NULL,
+  `hospital` varchar(150) DEFAULT NULL,
+  `city` varchar(50) DEFAULT NULL,
+  `address` varchar(300) DEFAULT NULL,
+  `mobile` varchar(20) DEFAULT NULL,
+  `landline` varchar(20) DEFAULT NULL,
+  `purpose` varchar(400) DEFAULT NULL,
+  `username` varchar(50) DEFAULT NULL,
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

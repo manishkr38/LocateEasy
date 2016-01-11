@@ -1,0 +1,10 @@
+DROP TABLE IF EXISTS `locateeasy`.`register`;
+CREATE TABLE  `locateeasy`.`register` (
+  `f_name` varchar(100) DEFAULT NULL,
+  `l_name` varchar(100) DEFAULT NULL,
+  `mobile` varchar(20) DEFAULT NULL,
+  `username` varchar(100) DEFAULT NULL,
+  `email` varchar(100) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
+  UNIQUE KEY `username` (`username`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

@@ -1,0 +1,21 @@
+DROP TABLE IF EXISTS `locateeasy`.`doctr`;
+CREATE TABLE  `locateeasy`.`doctr` (
+  `clinic` varchar(200) DEFAULT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `category` varchar(200) DEFAULT NULL,
+  `qualification` varchar(200) DEFAULT NULL,
+  `disease` varchar(300) DEFAULT NULL,
+  `experience` varchar(10) DEFAULT NULL,
+  `checkup` varchar(15) DEFAULT NULL,
+  `timing` varchar(20) DEFAULT NULL,
+  `address` varchar(400) DEFAULT NULL,
+  `state` varchar(100) DEFAULT NULL,
+  `contact` varchar(100) DEFAULT NULL,
+  `username` varchar(200) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
+  `landline` varchar(50) DEFAULT NULL,
+  `ambulance` varchar(10) DEFAULT NULL,
+  `oncall` varchar(10) DEFAULT NULL,
+  `likes` int(11) DEFAULT '0',
+  `email` varchar(100) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
